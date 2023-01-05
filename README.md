@@ -1,11 +1,17 @@
 # COMANDOS GIT
 
 #VERSIONANDO PROJETO INICIAL
+
 git init 
+
 git add .
+
 git commit -m "mensagem"
+
 git branch -M main
-git remote add origin <chave SSH>
+
+git remote add origin < chave SSH >
+
 git push -u origin main 
 
 #COMANDOS GIT
