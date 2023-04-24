@@ -56,6 +56,11 @@ git push -f>> sobrescrever historico no github		OBS:::ação destrutiva
 
 git remote set-url origin "sshDoRepositorio">> apontar projeto para outro repositorio remoto
 
+#REMOVENDO ARQUIVOS DO GITIGNORE
+
+git config --global core.excludesfile ~/.gitignore
+
+git rm -r --cached PATH_NAME
 
 #RESOLVENDO CONFLITOS [historicos diferentes em um mesmo arquivo]
 1 - analisar o codigo fonte
